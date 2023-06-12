@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(backgrounds/mainprojectsback.jpg);
+}
+
+.subject-name {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 4%;
+    padding-right: 4%;
+    box-sizing: border-box;
+}
+
+
+.backgroundmain-1 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/cityback.jpg);
+}
+
+.backgroundmain-2 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/basketballback.jpg);
+}
+
+.backgroundmain-3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/industryback.jpg);
+}
+
+.backgroundmain-4 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/BSbuildback.jpg);
+}
+
+.backgroundmain-5 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/grandshomesback.jpg);
+}
+
+.backgroundmain-6 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/roadslightsback.jpg);
+}
+
+.backgroundmain-7 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/centerlogicback.jpg);
+}
+
+.backgroundmain-8 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/waterparkback.jpg);
+}
+
+
+
+.show-project {
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(backgrounds/mainprojectsback.jpg);
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: #333;
+    display: flex;
+    align-items: center;
+    z-index: 10000;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+    nav ul {
+        list-style: none;
+    }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 30px;
+        }
+
+.navbar__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    transition: box-shadow .5s ease-in-out;
+}
+
+    .navbar__link:hover {
+        box-shadow: inset 200px 0 0 0 #757a80;
+    }
+
+.homelogo {
+    height: 20px;
+    margin: 0 40px;
+    filter: invert(100%);
+}
+
+.mainlogo {
+    width: 220px;
+}
+
+.englishlogo {
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+    background-position: 0;
+    -webkit-text-fill-color: transparent;
+    animation: shine_english 4s;
+    -webkit-background-clip: text;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    text-decoration: none;
+    white-space: nowrap;
+    background-size: 4000px;
+}
+
+
+.hebrewlogo {
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+    background-position: 0;
+    -webkit-text-fill-color: transparent;
+    animation: shine_hebrew 4s;
+    -webkit-background-clip: text;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    text-decoration: none;
+    white-space: nowrap;
+    background-size: 3500px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.row-img-text {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 110%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+.subject-name {
+    flex-basis: 50%;
+    animation: fadeIn 2s;
+    height: 200px;
+}
+
+.col-text .col-img {
+    flex-basis: 50%;
+    animation: fadeIn 2s;
+    height: 200px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 80px;
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 10px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    animation: fadeIn 2s;
+}
+
+
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+
+a.card {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 5px #999;
+}
+
+
+
+.arrow:before {
+    position: absolute;
+    left: 50%;
+}
+
+.arrow {
+    position: relative;
+    animation: floatBubble 2s infinite normal ease-out;
+    width: 40px;
+    height: 40px;
+    filter: invert(100%);
+}
+
+
+
+
+
+
+
+
+
+@keyframes floatBubble {
+    0% {
+        top: 50px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes shine_english {
+    0% {
+        background-position: 400px;
+    }
+
+
+    100% {
+        background-position: -400px;
+    }
+}
+
+@keyframes shine_hebrew {
+    0% {
+        background-position: -500px;
+    }
+
+
+    100% {
+        background-position: -40px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    h5 {
+        display: none;
+    }
+
+    .navbar__link {
+        font-size: 30px;
+    }
+
+    .rowprojects {
+        display: none;
+    }
+
+    .row-mobile {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+.card1-1 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics1/1.jpg);
+}
+
+.card1-2 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics1/2.jpeg);
+}
+
+.card1-3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics1/3.jpg);
+}
+
+.card1-4 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics1/4.png);
+}
+
+.card1-5 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics1/5.jpeg);
+}
+
+.card1-6 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics1/6.png);
+}
+
+.card1-7 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics1/7.png);
+}
+
+.card1-8 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics1/8.jpg);
+}
+
+
+.card2-1 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics2/1.jpeg);
+}
+
+.card2-2 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics2/2.jpg);
+}
+
+.card2-3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics2/3.jpg);
+}
+
+.card2-4 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics2/4.jpg);
+}
+
+.card2-5 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics2/5.jpg);
+}
+
+.card2-6 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics2/6.jpg);
+}
+
+.card2-7 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics2/7.jpg);
+}
+
+.card2-8 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics2/8.jpg);
+}
+
+
+.card3-1 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics3/1.png);
+}
+
+.card3-2 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics3/2.jpg);
+}
+
+.card3-3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics3/3.jpg);
+}
+
+.card3-4 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics3/4.jpg);
+}
+
+.card3-5 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics3/5.jpg);
+}
+
+.card3-6 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics3/6.png);
+}
+
+.card3-7 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics3/7.png);
+}
+
+.card3-8 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics3/8.jpg);
+}
+
+
+.card4-1 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics4/1.jpg);
+}
+
+.card4-2 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics4/2.jpg);
+}
+
+.card4-3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics4/3.png);
+}
+
+.card4-4 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics4/4.jpg);
+}
+
+.card4-5 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics4/5.jpg);
+}
+
+.card4-6 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics4/6.jpg);
+}
+
+.card4-7 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics4/7.jpg);
+}
+
+.card4-8 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics4/8.jpg);
+}
+
+
+.card5-1 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics5/1.png);
+}
+
+.card5-2 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics5/2.jpg);
+}
+
+.card5-3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics5/3.jpg);
+}
+
+.card5-4 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics5/4.jpg);
+}
+
+.card5-5 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics5/5.jpg);
+}
+
+.card5-6 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics5/6.jpg);
+}
+
+.card5-7 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics5/7.jpeg);
+}
+
+.card5-8 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics5/8.jpeg);
+}
+
+
+.card6-1 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics6/1.jpg);
+}
+
+.card6-2 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics6/2.jpg);
+}
+
+.card6-3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics6/3.jpg);
+}
+
+.card6-4 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics6/4.png);
+}
+
+.card6-5 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics6/5.jpg);
+}
+
+.card6-6 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics6/6.jpeg);
+}
+
+.card6-7 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics6/7.jpg);
+}
+
+.card6-8 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics6/8.jpg);
+}
+
+
+.card7-1 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics7/1.png);
+}
+
+.card7-2 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics7/2.png);
+}
+
+.card7-3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics7/3.png);
+}
+
+.card7-4 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics7/4.png);
+}
+
+.card7-5 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics7/5.jpg);
+}
+
+.card7-6 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics7/6.jpg);
+}
+
+.card7-7 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics7/7.jpg);
+}
+
+.card7-8 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics7/8.png);
+}
+
+
+.card8-1 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(cardpics8/1.jpg);
+}
+
+.card8-2 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics8/2.jpg);
+}
+
+.card8-3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics8/3.jpeg);
+}
+
+.card8-4 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics8/4.jpg);
+}
+
+.card8-5 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics8/5.jpg);
+}
+
+.card8-6 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics8/6.jpg);
+}
+
+.card8-7 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics8/7.png);
+}
+
+.card8-8 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(cardpics8/8.png);
+}
