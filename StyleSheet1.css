@@ -380,7 +380,10 @@ a.card {
 
 
 
-
+@media screen and (max-width: 1360px) {
+    h5 {
+        display: none;
+    }
 
 @media screen and (max-width:500px) {
     .row-contact {
