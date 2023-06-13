@@ -382,7 +382,7 @@ a.card {
 
 
 
-@media screen and (max-width:1090px) {
+@media screen and (max-width:500px) {
     .row-contact {
         display: flex;
         height: 100%;
