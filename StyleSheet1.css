@@ -51,9 +51,28 @@ img{
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(cardpics4/2.jpg);
 }
 
+
+.container--projects {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/secondback.jpg);
+}
+
+.container--contact {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/secondback.jpg);
+}
+
+.container--about {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/lastback.jpg);
+}
+
+.container--customers {
+    background-image: url(customerspic/logos.jpg);
+}
+
 .container--allprojects {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/thirdback.jpg);
 }
+
+
 
 .card1 {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(backgrounds/cityback.jpg);
