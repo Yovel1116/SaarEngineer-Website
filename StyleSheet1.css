@@ -336,7 +336,53 @@ a.card {
 }
 
 
+@keyframes slideBg {
 
+    0% {
+        background-image: url(cardpics4/8.jpg)
+    }
+
+
+    10% {
+        background-image: url(cardpics8/3.jpeg)
+    }
+
+    20% {
+        background-image: url(cardpics8/1.jpg)
+    }
+
+    30% {
+        background-image: url(cardpics4/2.jpg)
+    }
+
+    40% {
+        background-image: url(cardpics3/8.jpg)
+    }
+
+    50% {
+        background-image: url(cardpics1/5.jpeg)
+    }
+
+    60% {
+        background-image: url(cardpics1/3.jpg)
+    }
+
+    70% {
+        background-image: url(cardpics2/7.jpg)
+    }
+
+    80% {
+        background-image: url(cardpics5/4.jpg)
+    }
+
+    90% {
+        background-image: url(cardpics5/6.jpg)
+    }
+
+    100% {
+        background-image: url(cardpics8/5.jpg)
+    }
+}
 
 
 
