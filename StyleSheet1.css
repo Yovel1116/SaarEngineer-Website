@@ -344,23 +344,23 @@ a.card {
 
 
     10% {
-        background-image: url(cardpics8/3.jpeg)
+        background-image: url(cardpics4/1.jpg)
     }
 
     20% {
-        background-image: url(cardpics8/1.jpg)
-    }
-
-    30% {
         background-image: url(cardpics4/2.jpg)
     }
 
+    30% {
+        background-image: url(cardpics4/5.jpg)
+    }
+
     40% {
-        background-image: url(cardpics3/8.jpg)
+        background-image: url(cardpics4/6.jpg)
     }
 
     50% {
-        background-image: url(cardpics1/5.jpeg)
+        background-image: url(cardpics4/8.jpg)
     }
 
     60% {
