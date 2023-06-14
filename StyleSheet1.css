@@ -50,58 +50,6 @@ img{
 .mainpage {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(cardpics4/2.jpg);
 }
-.container--projects {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/secondback.jpg);
-}
-
-.container--contact {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/secondback.jpg);
-}
-
-.container--about {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/lastback.jpg);
-}
-
-.container--customers {
-    background-image: url(customerspic/logos.png);
-}
-
-.container--allprojects {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/thirdback.jpg);
-}
-
-
-.card1 {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(backgrounds/cityback.jpg);
-}
-
-.card2 {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(backgrounds/basketballback.jpg);
-}
-
-.card3 {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(backgrounds/industryback.jpg);
-}
-
-.card4 {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(backgrounds/BSbuildback.jpg);
-}
-
-.card5 {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(backgrounds/grandshomesback.jpg);
-}
-
-.card6 {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(backgrounds/roadslightsback.jpg);
-}
-
-.card7 {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(backgrounds/centerlogicback.jpg);
-}
-
-.card8 {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(backgrounds/waterparkback.jpg);
-}
 
 .resumePDF {
     width: 150%;
