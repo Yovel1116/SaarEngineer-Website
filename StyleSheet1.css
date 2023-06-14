@@ -51,6 +51,40 @@ img{
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(cardpics4/2.jpg);
 }
 
+
+
+.card1 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(backgrounds/cityback.jpg);
+}
+
+.card2 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(backgrounds/basketballback.jpg);
+}
+
+.card3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(backgrounds/industryback.jpg);
+}
+
+.card4 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(backgrounds/BSbuildback.jpg);
+}
+
+.card5 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(backgrounds/grandshomesback.jpg);
+}
+
+.card6 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(backgrounds/roadslightsback.jpg);
+}
+
+.card7 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(backgrounds/centerlogicback.jpg);
+}
+
+.card8 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(backgrounds/waterparkback.jpg);
+}
+
 .resumePDF {
     width: 150%;
     height: 500px;
