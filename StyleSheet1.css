@@ -343,45 +343,40 @@ a.card {
     }
 
 
-    10% {
+    15% {
         background-image: url(cardpics4/1.jpg)
     }
 
-    20% {
+    30% {
         background-image: url(cardpics4/2.jpg)
     }
 
-    30% {
+    45% {
         background-image: url(cardpics4/5.jpg)
     }
-
-    40% {
-        background-image: url(cardpics4/6.jpg)
-    }
-
-    50% {
-        background-image: url(cardpics4/8.jpg)
-    }
-
-    60% {
-        background-image: url(cardpics1/3.jpg)
-    }
-
-    70% {
-        background-image: url(cardpics2/7.jpg)
+    65% {
+        background-image: url(cardpics1/5.jpeg)
     }
 
     80% {
-        background-image: url(cardpics5/4.jpg)
+        background-image: url(cardpics4/6.jpg)
     }
+
+    100% {
+        background-image: url(cardpics4/8.jpg)
+    }
+
+
+
+
+
+
 
     90% {
         background-image: url(cardpics5/6.jpg)
     }
 
-    100% {
-        background-image: url(cardpics8/5.jpg)
-    }
+
 }
 
 
