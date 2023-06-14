@@ -51,7 +51,9 @@ img{
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(cardpics4/2.jpg);
 }
 
-
+.container--projects {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(backgrounds/secondback.jpg);
+}
 
 .card1 {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(backgrounds/cityback.jpg);
