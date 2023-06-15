@@ -206,7 +206,7 @@ nav {
 .rowmanager {
     display: flex;
     flex-wrap: wrap;
-    height: 87%;
+    height: 100%;
     align-items: center;
     align-content: flex-end;
     text-align: center;
