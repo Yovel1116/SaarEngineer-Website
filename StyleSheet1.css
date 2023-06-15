@@ -196,7 +196,7 @@ nav {
 .row {
     display: flex;
     flex-wrap: wrap;
-    height: 88%;
+    height: 100%;
     align-items: center;
     align-content: center;
     text-align: center;
