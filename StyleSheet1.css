@@ -208,7 +208,7 @@ nav {
     flex-wrap: wrap;
     height: 100%;
     align-items: center;
-    align-content: flex-end;
+    align-content: center;
     text-align: center;
     justify-content: center;
 }
